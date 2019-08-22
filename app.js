@@ -31,7 +31,7 @@ function searchGif(gifName) {
 
 function displayGif(response) {
     $('#athletes').empty();
-    for (var i = 0; i < response.data.length; i++) {
+    for (var i = 0; i < 10; i++) {
         var rating = "<div class='ratings'> Rating:  " + (response.data[i].rating) + " </div>";
         var image = rating + '<img src= " ' + response.data[i].images.fixed_height_still.url +
             '" data-still=" ' + response.data[i].images.fixed_height_still.url +

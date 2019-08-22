@@ -3,8 +3,6 @@ body {
 }
 
 .ratings {
-    color: red;
-    font-family: avenir;
     font-size: 18px;
 }
 
@@ -18,17 +16,17 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 480px) {
-    .movImage {
-        width: 500px;
-        height: 500px;
-    }
-}
-
 .form-control {
     width: 30%;
 }
 
 #add {
     font-size: 20px;;
+}
+            
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+                }
 }
